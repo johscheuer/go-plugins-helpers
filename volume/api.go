@@ -35,6 +35,7 @@ type Response struct {
 	Volumes      []*Volume
 	Volume       *Volume
 	Capabilities Capability
+	Status       map[string]interface{}
 }
 
 // Volume represents a volume object for use with `Get` and `List` requests
